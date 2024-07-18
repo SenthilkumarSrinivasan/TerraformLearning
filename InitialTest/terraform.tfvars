@@ -1,3 +1,3 @@
-dogNamePrefix = "mr"  
-dogNameSeparator = "-"  
-dogNameLength = 2 
+dogNamePrefix    = "mr"
+dogNameSeparator = "-"
+dogNameLength    = 2 
