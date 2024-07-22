@@ -1,6 +1,10 @@
 variable "filename" {
-  default     = "meow.txt"
-  type        = string
+  default     = [
+    "meow.txt",
+    "meow022.txt",
+    "meow033.txt"
+  ]
+  type        = list(string)
   description = "this is filename"
 }
 
@@ -9,7 +13,12 @@ variable "petcontent" {
 }
 
 variable "dogPetFilename" {
-  default = "lollloll.txt"
+  default = [
+    "lollloll.txt",
+    "lolllo1122.txt",
+    "lolllo1133.txt"
+    ]
+  type = list(string)
 }
 
 variable "dogPetContent" {
